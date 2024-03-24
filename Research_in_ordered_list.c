@@ -29,7 +29,7 @@ int main(void) {
     int result = binarySearch(arr, 0, n - 1, x);
     
     (result == -1) ? printf("L'élément n'est pas présent dans le tableau\n")    // Une manière plus concise de faire un if-else
-                   : printf("L'élément est présent à l'indice %d\n", result);
+                   : printf("L'élément est présent dans le tableau à l'indice %d\n", result);
     
     return 0;
 }
